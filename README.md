@@ -9,7 +9,9 @@ This application is divided into 3 apps.
 3. The dashboard app for displaying what the customer has ordered for.
 
 
-*The QR-Code Generator:* This system will generate a QR code, seamlessly integrating a link to the restaurant's WebApp along with the corresponding table number. When customers scan the QR code at their tables, they will be automatically directed to the WebApp to make their food selections. Upon placing an order, the information will promptly appear on the dashboard application, facilitating efficient service for the waitstaff. see image below
+*The QR-Code Generator:* This system will generate a QR code, seamlessly integrating a link to the restaurant's WebApp along with the corresponding table number. When customers scan the QR code at their tables, they will be automatically directed to the WebApp to make their food selections. Upon placing an order, the information will promptly appear on the dashboard application, facilitating efficient service for the waitstaff. see image below.
+
+
 ![image](https://github.com/CrawlWise/WaiterAssistance/assets/126500329/9b17735f-3d41-4022-b1d3-5393e8f83331)
 
 *The WebApp Resturant App:* This is the online storefront of the restaurant where customers can select the food they wish to order and make payments directly to the restaurant. (The payment feature will be available as part of a future upgrade.)
