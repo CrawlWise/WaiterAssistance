@@ -1,0 +1,28 @@
+@font-face {
+    font-family: "Roboto-Bold";
+    src= url("../asset/Roboto/Roboto-Bold.ttf")
+}
+
+.message-content h1 {
+    font-family: "Roboto-Bol";
+    font-weight: 50px;
+    font-size: 50px;
+}
+.gqrcode-body{
+    border: solid black 1px;
+    width:50%;
+    margin: 25px;
+    text-align: center;
+    padding: 10px;
+}
+.gqrcode-image img{
+    max-width: 250px;
+}
+
+/*Working with the print screen*/
+@media print{
+    .gqrcode-image img {
+        max-width: 200px;
+    }
+}
+

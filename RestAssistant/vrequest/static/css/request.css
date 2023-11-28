@@ -1,0 +1,118 @@
+
+.inner-container{
+    border: solid green 2px;
+}
+.inner-container h1{
+    text-align: center;
+}
+.header {
+    height: 50px;
+    background-color: pink;
+    color: white;
+}
+.search-bar{
+    box-sizing: border-box;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.search-box input {
+    border-radius: 10px;
+    border: inset grey 1px;
+
+}
+
+.search-box input:active {
+    box-shadow: 2px 1px 1px 2px;
+}
+form.search-box input[type=search]{
+    padding: 5px;
+    font-size: 17px;
+    background: #fff;
+    width: 100%;
+}
+form.search-box::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.welcome-message p {
+    font-family: "Tahoma";
+    font-size: 25px;
+}
+.welcome-message .Hi{
+    font-size: 40px;
+    font-weight: 900;
+    color: red;
+}
+.category-section{
+    height: 150px;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.category-section-header{
+    display:flex;
+    justify-content: space-between;
+}
+.category-item{
+    display:flex;
+    padding-top: 10px;
+    justify-content: space-between;
+    text-align: center;
+    overflow: scroll;
+
+    /* Scrollbar properties for edge */
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+/* Scrollbar properties removed for edge browsers and others */
+.category-item::-webkit-scrollbar {
+    display: none;
+}
+
+.category-data{
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.category-data a{
+    text-decoration: none;
+    color: #000;
+}
+.category-data img {
+    max-height: 50px;
+}
+
+.more-option {
+    font-type: bold;
+}
+.most-popular{
+    height: 150px;
+    border: solid red 2px;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+.popular-section-header{
+    display:flex;
+    justify-content: space-between;
+    border: solid green 2px;
+}
+.show-all-food{
+    border: solid black 2px;
+}
+
+@media screen and (min-width: 426px){
+    .header{
+        background-color: green;
+    }
+    .img-logo{
+        width: 30px;
+        height: 24;
+    }
+}
