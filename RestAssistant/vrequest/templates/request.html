@@ -52,6 +52,7 @@
 					<!--<button type="submit"><i class="fa fa-search"></i>Button</button> -->
 				</form>
 			</div>
+			
 			<!--Food display section of the application-->
 			<section class="food-display">
 				<div class="category-section">
@@ -81,7 +82,31 @@
 						<span class="more-option">...</span>
 					</div>
 				</div>
-				<div class="show-all-food"><h3>Show All foods</h3></div>
+				
+				<!-- Show all food Section -->
+				<div class="show-all-food">
+					<div class="showAllFood-section-header">
+						<span class="header-text">
+							<h5>All Food</h5>
+						</span>
+						<span class="more-option">...</span>
+					</div>
+					<!-- Display category items -->
+					<div class="showAllFood-item">
+						{% for item in showAllFoodCategory %}
+							<div class="showAllFood-data">
+								<a href="#">
+									<img src={{ item.foodImage }}>
+									<h6>{{ item.name }}</h6>
+								</a>
+								<div class="price-addFood">
+									<span><h6>&#8358;{{ item.price }}</h6></span>
+									<!--<span class="Add-food">+</span> -->
+								</div>
+							</div>
+						{% endfor %}
+					</div>
+				</div>
 			</section>
 		</div>
 	</div>
