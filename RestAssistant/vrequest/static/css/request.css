@@ -84,6 +84,7 @@ form.search-box::after {
 }
 .category-data img {
     max-height: 50px;
+    border-radius: 10px;
 }
 
 .more-option {
@@ -103,9 +104,52 @@ form.search-box::after {
     justify-content: space-between;
     border: solid green 2px;
 }
+
+/* CSS Style for ShowAllfood Section */
+
+.showAllFood-section-header{
+    display:flex;
+    justify-content: space-between;
+}
+
 .show-all-food{
     border: solid black 2px;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
+
+.showAllFood-data img {
+    max-height: 50px;
+    border-radius: 10px;
+}
+.showAllFood-item{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 10px;
+    overflow: scroll;
+    justify-content: center;
+
+}
+.showAllFood-item a{
+    text-decoration: none;
+}
+.showAllFood-data{
+    margin: 10px;
+    width: 120px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 3px 5px 8px 3px #888888;
+    padding-top: 10px;
+}
+
+
+
+
+
+
+
 
 @media screen and (min-width: 426px){
     .header{
