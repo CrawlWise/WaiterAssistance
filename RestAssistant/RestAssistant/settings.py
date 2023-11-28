@@ -123,6 +123,11 @@ USE_TZ = True
 STATIC_ROOT = BASE_DIR / 'staticfiles' # This allows us to serve static files on projection (py manage.py collectstatic) to create the file
 STATIC_URL = 'static/'
 
+
+# Creating my media root directory to serve my static images from my model
+MEDIA_ROOT = ''
+MEDIA_URL = ''
+
 # Create Directory to hold the global style for the application
 STATICFILES_DIRS = [
     BASE_DIR / 'asset'

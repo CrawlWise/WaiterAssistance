@@ -12,9 +12,9 @@ def qrGenerator():
 # Create your views here.
 def generateBarcode(request):
     # Get the current working dir
-    initial_dir = os.getcwd()
-    pushdir = initial_dir + "\\gbarcode\\static\\img"
-    basefile = os.path.basename(pushdir + "\\customerRequest.png")
+    initial_dir = os.getcwd() # Get current directory
+    pushdir = initial_dir + "\\gbarcode\\static\\img" # Append current directory with the gbarcode directory
+    # basefile = os.path.basename(pushdir + "\\customerRequest.png")
     chdir = os.chdir(pushdir)
     qrGenerator()
     os.chdir(initial_dir)

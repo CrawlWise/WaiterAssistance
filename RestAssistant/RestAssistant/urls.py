@@ -7,3 +7,5 @@ urlpatterns = [
     path('vdisplay/', include('vdisplay.urls')),
     path('vrequest/', include('vrequest.urls')),
 ]
+
+
